@@ -9,8 +9,8 @@ logical solutions to problems. They help in creating efficient programs that per
 
 -Depending on the organisation of the elements,data structures are classified into two types:
     
-      1.> Linear data structure: Elements are accessed in a sequential order but it is not compulsory to store all element
-          sequentially.
+      1.> Linear data structure: Elements are accessed in a sequential order but it is not compulsory to store
+          all element sequentially.
           Examples: Linked Lists,Stack and Queues.
           
       2.> Non Linear data structure: Elements of these data structure are stored/accessed in a non-linear order.
