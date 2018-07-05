@@ -1,0 +1,27 @@
+# First Non-Repeating Element from a given array
+
+import sys
+
+def non_rep_ele(Array):
+	table = {}
+	for element in Array:
+		if element in table:
+			table[element] += 1
+		elif element not in table:
+			table[element] = 1
+		else:
+			table[element] = 0
+
+	for ele in table:
+		if table[ele] == 1:
+			print ele
+			break
+		else:
+			pass
+
+
+Array = sys.argv[1]
+Array = map(int, Array.split(","))
+non_rep_ele(Array)
+
+
